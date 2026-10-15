@@ -1,0 +1,66 @@
+{
+  "header": {
+    "image": "/images/header.svg",
+    "imageMobile": "/images/header-mobile.svg"
+  },
+  "hero": {
+    "titleImages": [
+      {
+        "src": "/images/hero-title-1.svg",
+        "alt": "J’ETAM"
+      },
+      {
+        "src": "/images/hero-title-2.svg",
+        "alt": "Live Show 2025"
+      },
+      {
+        "src": "/images/hero-title-3.svg",
+        "alt": "30 septembre - 21h"
+      }
+    ],
+    "image": "/images/hero.jpg",
+    "imageAlt": "Mannequin en lingerie sur fond rouge"
+  },
+  "intro": {
+    "text": "Etam s’apprête à écrire un nouveau chapitre avec la 17ème édition de son incontournable Live Show. Plus qu’un défilé, un rendez-vous singulier qui bouscule les codes et réinvente la rencontre entre lingerie, mode et culture.",
+    "ctaLabel": "Save the date",
+    "ctaHref": "#"
+  },
+  "editorial": {
+    "eventInfo": "J’ETAM LIVE SHOW\n30 SEPTEMBRE À 21H\nPALAIS BRONGNIART",
+    "image": "/images/editorial.jpg",
+    "imageAlt": "Ensemble de lingerie en dentelle bordeaux",
+    "manifesto": "J’ETAM.\nUn manifesto, une déclaration d’amour. Un mot inventé, tendre et rebelle, fusion de “Je t’aime” et d’ETAM, qui devient la langue intime des femmes d’aujourd’hui.",
+    "caption": "Porté par la vision créative d’Olivier Leone et de l’agence Pragma, le Live Show 2025 donne vie au manifeste J’ETAM, dans une mise en scène conçue comme une véritable narration visuelle."
+  },
+  "imageDuo": {
+    "items": [
+      {
+        "video": "/videos/clap.mp4",
+        "poster": "/images/clap-poster.jpg",
+        "imageAlt": "Clap de tournage du film J’Etam : La Tendresse"
+      },
+      {
+        "image": "/images/duo-lit.jpg",
+        "imageAlt": "Mannequin allongée sur un lit en culotte blanche brodée Etam",
+        "desktopOnly": true
+      }
+    ],
+    "credits": [
+      "DIRECTION CRÉATIVE : OLIVIER LEONE\nAGENCE : PRAGMA\nPHOTOGRAPHE : BRIANNA CAPOZZI",
+      "STYLISTE : VANESSA REID\nMAQUILLAGE : LUCY BRIDGE\nCOIFFURE : CLAIRE GRECH"
+    ]
+  },
+  "contest": {
+    "title": "Jeu concours",
+    "text": "Vivez le Etam Liveshow en VIP le 30 septembre.",
+    "highlight": "Tentez de gagner 2 places exclusives\nInscrivez-vous jusqu’au 26.09",
+    "ctaLabel": "Je tente ma chance"
+  },
+  "signup": {
+    "title": "Je tente ma chance",
+    "text": "Inscrivez-vous pour participer au tirage au sort et tenter de gagner 2 places pour le Live Show.",
+    "submitLabel": "Valider mon inscription",
+    "successMessage": "Merci, votre inscription est bien enregistrée. Bonne chance !"
+  }
+}
