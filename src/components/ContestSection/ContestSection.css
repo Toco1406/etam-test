@@ -1,0 +1,45 @@
+/* ----- Mobile ----- */
+
+.contest {
+  padding: 4rem 1rem;
+  text-align: center;
+  background-color: var(--color-bg-light);
+}
+
+.contest__title {
+  margin: 0 0 2rem;
+  font-family: var(--font-caps);
+  font-weight: 300;
+  font-size: 1.5rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.contest__text {
+  margin: 0 0 1.5rem;
+  font-size: var(--fs-small);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.contest__highlight {
+  margin: 0 0 2.5rem;
+  font-size: var(--fs-small);
+  font-weight: 700;
+  line-height: 1.8;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  white-space: pre-line;
+}
+
+/* ----- Desktop ----- */
+
+@media (min-width: 1024px) {
+  .contest {
+    padding: 6rem 2rem;
+  }
+
+  .contest__title {
+    font-size: 3rem;
+  }
+}
