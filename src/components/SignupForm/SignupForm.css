@@ -1,0 +1,78 @@
+.signup {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.signup__intro {
+  margin: 0 0 0.5rem;
+  text-align: center;
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+.signup__field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.signup__label {
+  font-size: 0.875rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.signup__input {
+  padding: 0.75rem;
+  border: 1px solid var(--color-text);
+  border-radius: 0;
+  font-family: inherit;
+  font-size: 1rem;
+  color: var(--color-text);
+  background-color: var(--color-bg);
+}
+
+.signup__input:focus-visible {
+  outline: 2px solid var(--color-text);
+  outline-offset: 2px;
+}
+
+.signup__input--error {
+  border-color: var(--color-error);
+}
+
+.signup__error {
+  margin: 0;
+  font-size: 0.875rem;
+  color: var(--color-error);
+}
+
+.signup__submit {
+  margin-top: 0.5rem;
+  padding: 1rem;
+  border: none;
+  background-color: var(--color-text);
+  color: var(--color-text-inverse);
+  font-family: inherit;
+  font-size: 0.875rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.signup__submit:hover {
+  opacity: 0.85;
+}
+
+.signup__submit:focus-visible {
+  outline: 2px solid var(--color-text);
+  outline-offset: 2px;
+}
+
+.signup__success {
+  margin: 0;
+  text-align: center;
+  font-size: 1rem;
+  line-height: 1.4;
+}
