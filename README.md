@@ -1,16 +1,59 @@
-# React + Vite
+# J’ETAM Live Show 2025 — Test d’intégration
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Intégration responsive (mobile et desktop) de la page d’opération com « J’ETAM Live Show 2025 », à partir de la maquette Figma fournie, avec une popin d’inscription au jeu concours.
 
-Currently, two official plugins are available:
+## Lancer le projet
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Prérequis : Node.js 20 ou plus.
 
-## React Compiler
+```bash
+git clone https://github.com/Toco1406/etam-test.git
+cd etam-test
+npm install
+npm run dev
+```
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+La page est ensuite disponible sur `http://localhost:5173`.
 
-## Expanding the ESLint configuration
+Autres commandes :
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- `npm run build` : génère la version de production dans `dist/`
+- `npm run lint` : vérifie le code avec ESLint
+
+## Stack technique
+
+| Outil | Rôle |
+| --- | --- |
+| **React** | Découpage de la page en composants réutilisables |
+| **Vite** | Serveur de développement et build |
+| **CSS natif** | Variables CSS, BEM, mobile-first (sans framework CSS) |
+| **ESLint** | Qualité du code |
+
+Aucune librairie externe pour la popin ni pour le formulaire.
+
+## Structure du projet
+
+```
+public/
+  images/            Visuels exportés depuis Figma
+  videos/            Vidéo du clap
+src/
+  components/        Un dossier par composant (.jsx + .css)
+    Header/
+    Hero/
+    TextBlock/
+    Cta/
+    EditorialBlock/
+    ImageDuo/
+    ContestSection/
+    Modal/
+    SignupForm/
+  data/
+    content.json     Contenu de la page 
+  styles/
+    fonts.css        Déclaration des polices (@font-face)
+    variables.css    Couleurs, typographies, tailles de texte
+    base.css         Reset et styles globaux
+  App.jsx            Assemblage des sections
+  main.jsx           Point d’entrée
+```
