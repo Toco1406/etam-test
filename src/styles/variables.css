@@ -1,7 +1,23 @@
 :root {
-  --color-text: ;
-  --color-bg: ;
-  --color-bg-light: ;
-  --font-display: ;
-  --font-body: ;
+  /* Couleurs */
+  --color-text: #000000;
+  --color-bg: #ffffff;
+  --color-bg-light: #f5f5f5;
+  --color-text-inverse: #ffffff;
+  --color-error: #b3261e;
+
+  /* Typographies */
+  --font-caps: 'Copperplate', serif;
+  --font-body: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+
+  /* Tailles de texte en mobile */
+  --fs-body: 0.9375rem; /* 15px */
+  --fs-small: 0.875rem; /* 14px */
+}
+
+/* Tailles de texte en desktop */
+@media (min-width: 1024px) {
+  :root {
+    --fs-body: 1.25rem; /* 20px */
+  }
 }
