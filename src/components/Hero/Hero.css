@@ -1,0 +1,57 @@
+/* ----- Mobile ----- */
+
+.hero {
+  position: relative;
+  aspect-ratio: 3 / 4;
+  overflow: hidden;
+}
+
+.hero__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
+}
+
+.hero__title {
+  position: absolute;
+  inset: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0.5rem;
+  padding-bottom: 2rem;
+}
+
+.hero__title-line {
+  width: 70%;
+  max-width: 638px;
+}
+
+.hero__title-line:first-child {
+  margin-bottom: 30%;
+}
+
+/* ----- Desktop ----- */
+
+@media (min-width: 1024px) {
+  .hero {
+    aspect-ratio: 1512 / 850;
+  }
+
+  .hero__title {
+    justify-content: center;
+    gap: 1.5rem;
+    padding-bottom: 0;
+  }
+
+  .hero__title-line {
+    width: 80%;
+  }
+
+  .hero__title-line:first-child {
+    margin-bottom: 0;
+  }
+}

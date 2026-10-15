@@ -1,0 +1,30 @@
+/* ----- Mobile ----- */
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  padding: 1rem 1.25rem;
+  mix-blend-mode: screen;
+  transition: background-color 0.3s ease;
+}
+
+.header--scrolled {
+  mix-blend-mode: normal;
+  background-color: var(--color-text);
+}
+
+.header__image {
+  width: 100%;
+  height: auto;
+}
+
+/* ----- Desktop ----- */
+
+@media (min-width: 1024px) {
+  .header {
+    padding: 1rem 2.5rem;
+  }
+}
