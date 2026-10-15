@@ -1,3 +1,5 @@
+**Démo en ligne :** https://etam-test.vercel.app/
+
 # J’ETAM Live Show 2025 — Test d’intégration
 
 Intégration responsive (mobile et desktop) de la page d’opération com « J’ETAM Live Show 2025 », à partir de la maquette Figma fournie, avec une popin d’inscription au jeu concours.
